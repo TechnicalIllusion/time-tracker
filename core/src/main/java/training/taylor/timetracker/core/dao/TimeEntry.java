@@ -17,7 +17,7 @@ public class TimeEntry {
         return description;
     }
 
-    public void setDescription(String value) {
+    public void setDescription(FinalString value) {
         this.description = value;
     }
 
@@ -25,7 +25,7 @@ public class TimeEntry {
         return rate;
     }
 
-    public void setRate(float value) {
+    public void setRate(Final float value) {
         this.rate = value;
     }
 
@@ -33,7 +33,7 @@ public class TimeEntry {
         return time;
     }
 
-    public void setTime(int value) {
+    public void setTime(Final int value) {
         this.time = value;
     }
 
